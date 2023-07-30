@@ -59,15 +59,20 @@ body{
     transition: all .2s ease;
 }
 
-#calculator-buttons button{
+#calculator-buttons  button{
     font-size: 1em;
     background-color: #6b6868;
     box-shadow: 0 10px 0 4px #a19a9a;
 }
 
-#calculator-buttons button:hover{
+#calculator-buttons  button:hover{
     box-shadow: 0 10px 0 1.5px #a19a9a;
 }
+
+#equal{
+    background-color: #2cbe19 !important; 
+}
+
 #calculator-buttons button:active{
     box-shadow: none;
 }
@@ -130,6 +135,3 @@ body{
    
 }
 
-#equal{
-    background-color: #2abd16;
-}
